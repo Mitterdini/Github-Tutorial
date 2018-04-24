@@ -19,13 +19,12 @@ person1 = Person(name, age, pet)
 time.sleep(1)
 os.system('clear')
 print("Well, now that that's out of the way,\n")
-answers = {"age":person1.age, "pet":person1.pet, "name":person1.name}
 while(True):
 	y=input("What can I do for you?\n-")
 	if(y=="nothing"):	exit()
-	elif(y not in answers):
+	elif(not hasattr(person1,y)):
 		print("please be more specific")
 	else:
-		print("you said it was %s"% answers[y])
+		print("you said it was %s"% getattr(person1, y))
 	time.sleep(2)
 	os.system('clear')
