@@ -1,4 +1,7 @@
 import time
+import os
+
+os.system('clear')
 print('Hello')
 name = input("what's your name?\n-")
 time.sleep(1)
@@ -14,9 +17,15 @@ time.sleep(1)
 pet = input("I won't forget again. Wait, don't you have a pet. What was it again?\n-")
 person1 = Person(name, age, pet)
 time.sleep(1)
+os.system('clear')
 print("Well, now that that's out of the way,\n")
+answers = {"age":person1.age, "pet":person1.pet, "name":person1.name}
 while(True):
-	x=input(" What can i do for you?")
-	print("you said it was %s"% person1.get(x))
-	if(x=="nothing"):
-		exit()
+	y=input("What can I do for you?\n-")
+	if(y=="nothing"):	exit()
+	elif(y not in answers):
+		print("please be more specific")
+	else:
+		print("you said it was %s"% answers[y])
+	time.sleep(2)
+	os.system('clear')
