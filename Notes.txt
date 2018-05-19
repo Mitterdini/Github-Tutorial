@@ -1,0 +1,11 @@
+This file will is to keep track of important pages.
+
+LP3THW - Learn Python 3 The Hard Way
+KLR    - Kali Linux Revealed
+==================================================================
+Bookmarks:                  page number given by PDF not Book.
+LP3THW (P.)
+KLR    (P.55)
+__________________________________________________________________
+
+LP3THW (P.65)  Escape Sequences table and '\' uses
