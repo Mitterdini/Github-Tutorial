@@ -11,7 +11,7 @@ KLR    (P.55)
 Python
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Notes_____________________________________________________________
-    *Use "pydoc" in Linux terminal to search for help with Python
+    *Use >pydoc< in Linux terminal to search for help with Python
 
 ------------------------------------------------------------------
 Pages_____________________________________________________________
