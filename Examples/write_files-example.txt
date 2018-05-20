@@ -1,0 +1,45 @@
+bash Command:
+                  >python3.6 Scripts/write_files.py Examples/write_files-example.txt
+
+Output:
+                  This script will erase the file
+                  to proceed type 'y'
+                  press anything else to cancel
+
+                  What's it gunna be, gorgeous?
+                  Delete write_files-example.txt? (y/n)
+                  > y
+                  Onward!!
+
+                  Welp, let's get to it then.
+                  Opening the file...
+
+                  Truncating the file, A.K.A.
+                  Time for write_files-example.txt to meet Thanos
+                  Soowa, what's it gunna be. Whatcha wanna write?
+                  > Striving for greatness!!
+
+                  Excellence!!
+                  Alright Mr.Businessman, let's write it to the file
+                  Do you wanna write more? (y/n)
+                  > y
+                  What else you wanna write?
+                  > Step 1: Learn Python
+                  write more? (y/n)
+                  > y
+                  What else you wanna write?
+                  > Step 2: Become a hacker
+                  write more? (y/n)
+                  > y
+                  What else you wanna write?
+                  > Step 3: Protect the innocents
+                  write more? (y/n)
+                  > n
+
+Bash Command:
+                  >cat Examples/write_files-example.txt<
+output:
+                  Striving for greatness!!
+                  Step 1: Learn Python
+                  Step 2: Become a hacker
+                  Step 3: Protect the innocents

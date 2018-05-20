@@ -2,7 +2,7 @@ from sys import argv                 #Import the argv module
 
 script_name, filename = argv         #Grabs the script name and filename
 
-txt = open(filename)                 #Assigns the selected file to a variable for later use
+txt = open(filename)                 #Creating a file object
 
 print(f"Okidoki, I'm going to find {filename} now...\nWorking...")
 print(f"Here's what I found:\n\n{txt.read()}")                  # >txt.read()< where {txt} is our set variable// this shows what's in the selected file
