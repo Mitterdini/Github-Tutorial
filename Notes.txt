@@ -12,10 +12,13 @@ Python
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Notes_____________________________________________________________
     *Use >pydoc< in Linux terminal to search for help with Python
-
+      -search "open", "file", "os", and "sys" for other info
+    *Bash Cheat Sheet: https://learncodethehardway.org/unix/bash_cheat_sheet.pdf
+    *Reference Manual: https://www.gnu.org/software/bash/manual/bashref/html
 ------------------------------------------------------------------
 Pages_____________________________________________________________
 LP3THW (P.65)  Escape Sequences table and '\' uses
+LP3THW (P.292) Terminal commands and definitions
 
 ==================================================================
 

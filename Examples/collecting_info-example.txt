@@ -1,0 +1,18 @@
+bash command:
+                  >python collecting_info.py Mitterdini<
+
+Output:
+                  ayo Mitterdini, what's up? I'm collecting_info.py. nice to meetcha
+                  I got a few questions foryas.
+                  what foods do you like?
+                  You said: sushi
+                  soowa, where you from?
+                  You said: Long Valley
+                  what kinda build you got?
+                  You said: Ghost Gaming PC
+
+                  welp, imma go hack ya cheeks now.
+                  your name is Mitterdini
+                  your favorite food is sushi
+                  you're from Long Valley
+                  and you got a Ghost Gaming PC

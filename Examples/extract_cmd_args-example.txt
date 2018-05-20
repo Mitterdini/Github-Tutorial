@@ -1,0 +1,8 @@
+bash command:
+                  >python3.6 ./Examples/extract_cmd_args.py one dos trois<
+
+Output:
+                  script_name = Examples/extract_cmd_args.py
+                  first argument = one
+                  second argument = dos
+                  third argument = trois
