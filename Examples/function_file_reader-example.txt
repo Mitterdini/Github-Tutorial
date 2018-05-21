@@ -1,0 +1,21 @@
+Bash Command:
+                  >python3.6 function_file_reader.py test.txt<
+
+Python Output:
+                  let's print the whole file:
+
+                  hey
+                  what?
+                  has BB eaten?
+                  yes BB8!!
+
+
+
+                  Next lets rewind
+
+                  now lets read a few lines
+                  1 hey
+
+                  2 what?
+
+                  3 has BB eaten?

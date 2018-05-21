@@ -1,7 +1,7 @@
-bash Command:
+Bash Command:
                   >python3.6 Scripts/write_files.py Examples/write_files-example.txt
 
-Output:
+Python Output:
                   This script will erase the file
                   to proceed type 'y'
                   press anything else to cancel

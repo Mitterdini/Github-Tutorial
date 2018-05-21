@@ -1,7 +1,7 @@
-bash command:
-                  >python collecting_info.py Mitterdini<
+Bash Command:
+                  >python3.6 collecting_info.py Mitterdini<
 
-Output:
+Python Output:
                   ayo Mitterdini, what's up? I'm collecting_info.py. nice to meetcha
                   I got a few questions foryas.
                   what foods do you like?

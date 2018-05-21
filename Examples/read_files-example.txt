@@ -1,7 +1,7 @@
-bash command:
-                  >python read_files.py Examples/collecting_info-example.txt<
+Bash Command:
+                  >python3.6 read_files.py Examples/collecting_info-example.txt<
 
-Output:
+Python Output:
                   Okidoki, I'm going to find Examples/collecting_info-example.txt now...
                   Working...
                   Here's what I found:

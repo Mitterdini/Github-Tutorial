@@ -1,9 +1,9 @@
 Bash Command:
-                  >cat test.txt; python Scripts/copy_file_using_exists.py test.txt new.txt<
-cat output:
+                  >cat test.txt; python3.6 Scripts/copy_file_using_exists.py test.txt new.txt<
+Cat Output:
                   DAAAAAAAAMN DANIAL
 
-Python output:
+Python Output:
                   Copying from test.txt to new.txt
 
                   The input file is 19 bytes long
