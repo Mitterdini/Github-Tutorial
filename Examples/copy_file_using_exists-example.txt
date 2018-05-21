@@ -1,0 +1,15 @@
+Bash Command:
+                  >cat test.txt; python Scripts/copy_file_using_exists.py test.txt new.txt<
+cat output:
+                  DAAAAAAAAMN DANIAL
+
+Python output:
+                  Copying from test.txt to new.txt
+
+                  The input file is 19 bytes long
+                  Does an output file exist?	~False
+
+                  press RETURN to continue, or CTRL-C (^C) to cancel
+
+
+                  Aaaaaaaaaaaaaand, Finished!!
