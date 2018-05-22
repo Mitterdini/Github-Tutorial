@@ -31,3 +31,7 @@ Notes_____________________________________________________________
 Pages_____________________________________________________________
 
 ==================================================================
+
+Miscellaneous
+
+    *https://wiki.archlinux.org/index.php/File_permissions_and_attributes  -> for >la -l< to learn what attributes you can use
