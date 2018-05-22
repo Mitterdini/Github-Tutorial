@@ -4,7 +4,7 @@ LP3THW - Learn Python 3 The Hard Way
 KLR    - Kali Linux Revealed
 ==================================================================
 Bookmarks:                  page number given by PDF not Book.
-LP3THW (P.112)
+LP3THW (P.122)
 KLR    (P.55)
 ==================================================================
 
