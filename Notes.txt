@@ -15,6 +15,9 @@ Notes_____________________________________________________________
       -search "open", "file", "os", and "sys" for other info
     *Bash Cheat Sheet: https://learncodethehardway.org/unix/bash_cheat_sheet.pdf
     *Reference Manual: https://www.gnu.org/software/bash/manual/bashref/html
+    *When using .encode() or .decode() remember   !DBES!  --> Decode Bytes Encode Strings
+            ->Have bytes; Need strings; ==> Decode Bytes
+            ->Have strings; Need bytes; ==> Encode Strings
 ------------------------------------------------------------------
 Pages_____________________________________________________________
 LP3THW (P.65)  Escape Sequences table and '\' uses

@@ -2,18 +2,18 @@ import sys                                                          # *Notice* w
 script, input_encoding, error = sys.argv                            #Because we did this, we need to select where argv comes from
                                                                     #Hence, sys.argv
 def main(language_file, encoding, errors):
-    line = language_file.readline()
+    line = language_file.readline()                                 #keep in mind, .readline() has a natural '\n' at the end of it
 
-    if line:
-        print_line(line, encoding, errors)
-        return main(language_file, encoding, errors)                #If line is true(as in, it reads something) then it will loop
-                                                                    #to the next line
+    if line:                                                        #This keeps the function loop from looping forever because it
+        print_line(line, encoding, errors)                          #will only loop if *line* has something in it
+        return main(language_file, encoding, errors)                #If *line* is true(as in, it reads something) then it will loop
+                                                                    #and run main() again; thus cycling through the file
 
 def print_line(line, encoding, errors):
-    next_lang = line.strip()                                        # .strip() gets rid of useless beginning and ending spaces
-    raw_bytes = next_lang.encode(encoding, errors=errors)           #what does .encode() do?
-    cooked_string = raw_bytes.decode(encoding, errors=errors)       #what does .decode() do?
-
+    next_lang = line.strip()                                        # .strip() gets rid of the natural '\n' thats at the end of *line* variable
+    raw_bytes = next_lang.encode(encoding, errors=errors)           # String + .encode() = Bytes
+    cooked_string = raw_bytes.decode(encoding, errors=errors)       # Bytes + .decode() = String
+                                                                    #DBES --> Decode Bytes Encode Strings
     print(raw_bytes, "<===>", cooked_string)
 
 
