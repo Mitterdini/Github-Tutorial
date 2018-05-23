@@ -1,0 +1,98 @@
+Script started on Wed 23 May 2018 05:58:29 PM EDT
+mitterdiggity> python3.6 ./../ex26.py ./../Notes.txt
+How old are you? 22
+How tall are you? 6-2
+How much do you weigh? ~185
+So, you're 22 old, 6-2 tall and 185 heavy.
+Here's your file ./../Notes.txt:
+This file will is to keep track of important pages.
+
+LP3THW - Learn Python 3 The Hard Way
+KLR    - Kali Linux Revealed
+==================================================================
+Bookmarks:                  page number given by PDF not Book.
+LP3THW (P.126)
+KLR    (P.55)
+==================================================================
+
+Python
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Notes_____________________________________________________________
+    *Use >pydoc< in Linux terminal to search for help with Python
+      -search "open", "file", "os", and "sys" for other info
+    *Bash Cheat Sheet: https://learncodethehardway.org/unix/bash_cheat_sheet.pdf
+    *Reference Manual: https://www.gnu.org/software/bash/manual/bashref/html
+    *When using .encode() or .decode() remember   !DBES!  --> Decode Bytes Encode Strings
+            ->Have bytes; Need strings; ==> Decode Bytes
+            ->Have strings; Need bytes; ==> Encode Strings
+------------------------------------------------------------------
+Pages_____________________________________________________________
+LP3THW (P.65)  Escape Sequences table and '\' uses
+LP3THW (P.292) Terminal commands and definitions
+
+==================================================================
+
+Kali Linux
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Notes_____________________________________________________________
+
+------------------------------------------------------------------
+Pages_____________________________________________________________
+
+==================================================================
+
+Miscellaneous
+
+    *https://wiki.archlinux.org/index.php/File_permissions_and_attributes  -> for >la -l< to learn what attributes you can use
+
+Type the filename again:
+> ./..   ./Examples/collection  ng_info-example.txt
+Bash Command:
+                  >python3.6 collecting_info.py Mitterdini<
+
+Python Output:
+                  ayo Mitterdini, what's up? I'm collecting_info.py. nice to meetcha
+                  I got a few questions foryas.
+                  what foods do you like?
+                  You said: sushi
+                  soowa, where you from?
+                  You said: Long Valley
+                  what kinda build you got?
+                  You said: Ghost Gaming PC
+
+                  welp, imma go hack ya cheeks now.
+                  your name is Mitterdini
+                  your favorite food is sushi
+                  you're from Long Valley
+                  and you got a Ghost Gaming PC
+
+Let's practice everything.
+You'd need to know 'bout escapes with \ that do
+ newlines and 	 tabs.
+--------------
+
+	The lovely world
+with logic so firmly planted
+cannot discern
+ the needs of love
+nor comprehend passion from intuition
+and requires an explanation
+
+		where there is none.
+
+--------------
+This should be five: 5
+With a starting point of: 10000
+We'd have 5000000 beans, 5000.0 jars, and 50.0 crates.
+We can also do that this way:
+We'd have 500000.0 beans, 500.0 jars, and 5.0 crates.
+Too many cats! The world is doomed!
+The world is dry!
+People are greater than or equal to dogs.
+People are less than or equal to dogs.
+People are dogs.
+[1;33mmitterdiggity[0;36m> exit
+exit
+
+Script done on Wed 23 May 2018 06:00:15 PM EDT
