@@ -4,7 +4,7 @@ LP3THW - Learn Python 3 The Hard Way
 KLR    - Kali Linux Revealed
 ==================================================================
 Bookmarks:                  page number given by PDF not Book.
-LP3THW (P.146)
+LP3THW (P.157)
 KLR    (P.55)
 ==================================================================
 
@@ -18,6 +18,9 @@ Notes_____________________________________________________________
     *When using .encode() or .decode() remember   !DBES!  --> Decode Bytes Encode Strings
             ->Have bytes; Need strings; ==> Decode Bytes
             ->Have strings; Need bytes; ==> Encode Strings
+    *When using range()
+            ->range(0,3) => 0,1,2
+            ->use it like range(start, end+1)
 ------------------------------------------------------------------
 Pages_____________________________________________________________
 LP3THW (P.65)  Escape Sequences table and '\' uses
