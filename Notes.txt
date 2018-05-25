@@ -23,7 +23,7 @@ Notes
         ->Have strings; Need bytes; ==> Encode Strings
     *When using range()
         ->range(0,3) => 0,1,2
-        ->Use it like range(start, end+1)
+        ->Use it like range(start, up to but not include)
     *Every IF statement should have an ELSE
         ->If the else should never run because it doesn't make sense, then you
           must use a die function in the else that prints out an error message
