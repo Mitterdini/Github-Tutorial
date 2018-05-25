@@ -1,0 +1,24 @@
+Script started on Fri 25 May 2018 10:16:07 AM EDT
+mitterdiggity> python3.6 Scripts/lists.py
+Apples Oranges Crows Telephone Light Sugar
+Wait there are not 10 things in that list. Let's fix that.
+stuff: ['Apples', 'Oranges', 'Crows', 'Telephone', 'Light', 'Sugar']
+Adding:  Boy
+There are 7 items now.
+Adding:  Girl
+There are 8 items now.
+Adding:  Banana
+There are 9 items now.
+Adding:  Corn
+There are 10 items now.
+There we go:  ['Apples', 'Oranges', 'Crows', 'Telephone', 'Light', 'Sugar', 'Boy', 'Girl', 'Banana', 'Corn']
+Let's do some things with stuff.
+Oranges
+Corn
+Corn
+Apples Oranges Crows Telephone Light Sugar Boy Girl Banana
+Telephone#Light
+mitterdiggity> exit
+exit
+
+Script done on Fri 25 May 2018 10:16:51 AM EDT

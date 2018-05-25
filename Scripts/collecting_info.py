@@ -1,6 +1,6 @@
 from sys import  argv
 
-name, user = argv                                                   # Getting info from the terminal original command
+name, user = argv                                                   #Getting info from the terminal original command
 prompt = 'You said: '                                               #Setting the input name
 
 print(f"ayo {user}, what's up? I'm {name}. nice to meetcha")

@@ -5,7 +5,7 @@ This file is to keep track of important pages and useful notes.
 
 ================================================================================
 Bookmarks:                  page number given by PDF not Book.
-    LP3THW (P.168)
+    LP3THW (P.170)
     KLR    (P.55)
 ================================================================================
 
