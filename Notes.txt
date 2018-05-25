@@ -5,7 +5,7 @@ This file is to keep track of important pages and useful notes.
 
 ================================================================================
 Bookmarks:                  page number given by PDF not Book.
-    LP3THW (P.162)
+    LP3THW (P.168)
     KLR    (P.55)
 ================================================================================
 
@@ -34,11 +34,16 @@ Notes
     *DO NOT USE DEBUGGERS
     *Don't code massive files of code before running them
         ->Code a little, run a little, fix a little
+    *When you read Python code, watch out for variables that are set new values
+        later in a script
+    *Use flow charts to help map out "blueprints" for a script
+
 --------------------------------------------------------------------------------
 Pages
 
     LP3THW (P.65)  Escape Sequences table and '\' uses
     LP3THW (P.292) Terminal commands and definitions
+    LP3THW (P.162-165) Useful Term Tables
 
 ================================================================================
 
