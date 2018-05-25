@@ -41,9 +41,3 @@ Do you go through door #1 or door #2?
 > 3
 You stumble around and fall on a knife and die.
 FAILURE.
-
-mitterdiggity> exit
-exit
-You enter a dark room with two doors.
-Do you go through door #1 or door #2?
->

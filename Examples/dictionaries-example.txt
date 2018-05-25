@@ -1,0 +1,25 @@
+Script started on Fri 25 May 2018 04:39:36 PM EDT
+
+Bash Command:
+                  >python3.6 /Scripts/dictionaries.py<
+
+Python Output:
+                  pick something: 2
+                  None
+
+
+                  when using a variable you need to call the variable
+                  not what it's assigned to: Ass
+
+
+                  {'succ': 'is short for succle', 5: 'Ass', 7: 45, 'Tom': 'Is a female dog', 3: 'Musketeers', 'two': 2}
+
+                  Is a female dog
+                  Musketeers
+                  2
+
+                  Ass
+                  ERROR: numbers are neat right!!
+                  ERROR AGAIN: welp, still wrong
+
+Script done on Fri 25 May 2018 04:40:04 PM EDT
