@@ -1,43 +1,57 @@
-This file will is to keep track of important pages.
+This file is to keep track of important pages and useful notes.
 
-LP3THW - Learn Python 3 The Hard Way
-KLR    - Kali Linux Revealed
-==================================================================
+    LP3THW - Learn Python 3 The Hard Way
+    KLR    - Kali Linux Revealed
+
+================================================================================
 Bookmarks:                  page number given by PDF not Book.
-LP3THW (P.160)
-KLR    (P.55)
-==================================================================
+    LP3THW (P.162)
+    KLR    (P.55)
+================================================================================
 
 Python
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Notes_____________________________________________________________
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Notes
+
     *Use >pydoc< in Linux terminal to search for help with Python
       -search "open", "file", "os", and "sys" for other info
     *Bash Cheat Sheet: https://learncodethehardway.org/unix/bash_cheat_sheet.pdf
     *Reference Manual: https://www.gnu.org/software/bash/manual/bashref/html
-    *When using .encode() or .decode() remember   !DBES!  --> Decode Bytes Encode Strings
-            ->Have bytes; Need strings; ==> Decode Bytes
-            ->Have strings; Need bytes; ==> Encode Strings
+    *When using .encode() or .decode()
+        ->Remember !DBES!  --> Decode Bytes Encode Strings
+        ->Have bytes; Need strings; ==> Decode Bytes
+        ->Have strings; Need bytes; ==> Encode Strings
     *When using range()
-            ->range(0,3) => 0,1,2
-            ->use it like range(start, end+1)
-------------------------------------------------------------------
-Pages_____________________________________________________________
-LP3THW (P.65)  Escape Sequences table and '\' uses
-LP3THW (P.292) Terminal commands and definitions
+        ->range(0,3) => 0,1,2
+        ->Use it like range(start, end+1)
+    *Every IF statement should have an ELSE
+        ->If the else should never run because it doesn't make sense, then you
+          must use a die function in the else that prints out an error message
+          and dies. This will help you find many errors.
+        ->Never nest IF statements more than two deep
+    *Use WHILE loops only to loop forever       -> only in Python
+    *Use FOR loops for all other looping
+    *DO NOT USE DEBUGGERS
+    *Don't code massive files of code before running them
+        ->Code a little, run a little, fix a little
+--------------------------------------------------------------------------------
+Pages
 
-==================================================================
+    LP3THW (P.65)  Escape Sequences table and '\' uses
+    LP3THW (P.292) Terminal commands and definitions
+
+================================================================================
 
 Kali Linux
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Notes
 
-Notes_____________________________________________________________
+--------------------------------------------------------------------------------
+Pages
 
-------------------------------------------------------------------
-Pages_____________________________________________________________
-
-==================================================================
+================================================================================
 
 Miscellaneous
 
-    *https://wiki.archlinux.org/index.php/File_permissions_and_attributes  -> for >la -l< to learn what attributes you can use
+    *https://wiki.archlinux.org/index.php/File_permissions_and_attributes
+        -> for >la -l< to learn what attributes you can use
