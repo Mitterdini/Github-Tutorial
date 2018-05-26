@@ -60,4 +60,5 @@ Pages
 Miscellaneous
 
     *https://wiki.archlinux.org/index.php/File_permissions_and_attributes
-        -> for >la -l< to learn what attributes you can use
+        -> for >ls -Al< to learn what attributes you can use
+    *To sort by time in terminal use >ls -tr< or >ls -t<
