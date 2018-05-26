@@ -5,7 +5,7 @@ This file is to keep track of important pages and useful notes.
 
 ================================================================================
 Bookmarks:                  page number given by PDF not Book.
-    LP3THW (P.178)
+    LP3THW (P.186)
     KLR    (P.55)
 ================================================================================
 
@@ -44,6 +44,7 @@ Pages
     LP3THW (P.65)  Escape Sequences table and '\' uses
     LP3THW (P.292) Terminal commands and definitions
     LP3THW (P.162-165) Useful Term Tables
+    LP3THW (P.186-7) Useful Object-Oriented Terms
 
 ================================================================================
 

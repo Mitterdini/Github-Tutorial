@@ -1,0 +1,13 @@
+Script started on Fri 25 May 2018 10:46:52 PM EDT
+Bash Command:
+                  >python3.6 Scripts/classes.py<
+
+Python Output:
+                  Rocket League
+                  Sky Noon
+                  PUBG
+                  DBZ Fighterz
+                  Rumble Fighter
+                  Battlefield One
+
+Script done on Fri 25 May 2018 10:47:21 PM EDT
