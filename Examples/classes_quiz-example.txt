@@ -1,0 +1,52 @@
+Script started on Sat 26 May 2018 03:34:19 PM EDT
+
+Bash Command:
+								>python Scripts/classes_quiz.py english<
+
+Python Output:
+								class Bee has-a __init__ that takes self and angle params.
+								>
+								ANSWER: class Bee(object):
+																def __init__(self, angle)
+
+
+								From distance get the brother attribute and set it to 'burn'.
+								>
+								ANSWER: distance.brother = 'burn'
+
+
+								From battle get the bait function, call it with params self, bulb, bun, calculator.
+								>
+								ANSWER: battle.bait(bulb, bun, calculator)
+
+
+								Set comb to an instance of class Dime.
+								>
+								Bye
+
+Bash Command:
+								>python Scripts/classes_quiz.py object-oriented phrases<
+
+Python Output:
+								class Day(object):
+										def __init__(self, coal)
+								>
+								ANSWER: class Day has-a __init__ that takes self and coal params.
+
+
+								chair.chalk = 'bun'
+								>
+								ANSWER: From chair get the chalk attribute and set it to 'bun'.
+
+
+								agreement = Cattle()
+								>
+								ANSWER: Set agreement to an instance of class Cattle.
+
+
+								class Art(object):
+										def clock(self, daughter, drop, debt)
+								>
+								Bye
+
+Script done on Sat 26 May 2018 03:35:20 PM EDT
