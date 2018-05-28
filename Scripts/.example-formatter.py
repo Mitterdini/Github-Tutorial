@@ -6,8 +6,11 @@ script, filename = argv
 
 def checker(file, output):
     checking = file.read()
+
     if checking:
+        checking = checking.replace("[1;33mmitterdiggity[0;36m> exit", "")
         checking = checking.replace("[1;33mmitterdiggity[0;36m", "mitterdiggity")
+        checking = checking.replace("exit", "")
         output.write(checking)
         return checker(file, output)
 

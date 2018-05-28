@@ -1,0 +1,14 @@
+Script started on Sun 27 May 2018 03:35:50 PM EDT
+
+mitterdiggity> python3.6 ../Scripts/more_classes.py
+What's your computer's company?
+> apple
+What's your computer's name?
+> Monster
+your computer name: Monster
+your computer color: burple
+your computer GPU: GTX 960
+your computer CPU: Intel core I7
+your computer operating system: Apple Macintosh OS
+
+Script done on Sun 27 May 2018 03:36:28 PM EDT

@@ -4,6 +4,6 @@ def switch_demo(choice):
 	switcher = {
 		"green":"Dang, I dig",					 #Dictionaries use {Key:Value}
 		"blue":"Not what I'd pick, but ight"}
-	print(switcher.get(choice, "Invalid color")) #.get has a built in error slot
+	print(switcher.get(choice, "Invalid color")) #.get has a built in default value
 												 #example.get(arg, "error MSG")
 switch_demo(x)
