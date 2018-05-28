@@ -1,3 +1,5 @@
+from pprint import pprint                                                       #This is used to help when printing all the attributes of
+                                                                                #an instance
 def os_picker(os, name):
     operating_systems = {
     "apple":Apple(name),
@@ -55,6 +57,5 @@ print("your computer color:", getattr(my_computer, 'color'))
 setattr(my_computer, 'gpu', 'GTX 960')
 my_computer.set_cpu('Intel core I7')
 
-print("your computer GPU:", my_computer.gpu)
-print("your computer CPU:", my_computer.cpu)
-print("your computer operating system:", my_computer.os)
+pprint(vars(my_computer))                                                       #This prints all attributes of >my_computer<
+print(vars(my_computer))                                                        #You can do it this way too, but it is less pretty
