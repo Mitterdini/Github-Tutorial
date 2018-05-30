@@ -1,10 +1,14 @@
 #THIS ONLY WORKS IF YOU ARE IN THE DIRECTORY OF THE DESIRED FILE
-from sys import argv
-import subprocess
+from sys import argv, path
+from os import system
+from pprint import pprint
 
 script, filename = argv
 
-def checker(file, output):
+path.extend(('/home/mitterdiggity/Coding/Python/Github/Learning-The-Hard-Way/',          # path[6]
+ '/home/mitterdiggity/Coding/Python/Github/Learning-The-Hard-Way/Examples'))             # path[7]
+
+def editor(file, output):
     checking = file.read()
 
     if checking:
@@ -12,23 +16,27 @@ def checker(file, output):
         checking = checking.replace("[1;33mmitterdiggity[0;36m", "mitterdiggity")
         checking = checking.replace("exit", "")
         output.write(checking)
-        return checker(file, output)
+        return editor(file, output)
+
+filename = path[6]+filename
+x = filename.split('/')
+name = x[-1]
 
 target = open(filename)
-new = "new_"+filename; new_target = open(new, 'w')
+new = path[6]+"new_"+name; new_target = open(new, 'w')
 
 print("Replacing...\n")
 
-checker(target, new_target)
+editor(target, new_target)
 target.close()
-subprocess.call(["rm", "{}".format(filename)])
+system("rm {}".format(filename))
 new_target.close()
 
 new_target = open(new)
-final = new.strip("new_"); final_target = open(final, 'w')
-checker(new_target, final_target)
+final = new.replace(new, filename); final_target = open(final, 'w')
+editor(new_target, final_target)
 new_target.close()
-subprocess.call(["rm", "{}".format(new)])
+system("rm {}".format(new))
 final_target.close()
 
 print('Done.')
