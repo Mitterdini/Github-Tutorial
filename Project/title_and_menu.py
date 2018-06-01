@@ -2,11 +2,13 @@ from os import system
 from time import sleep
 
 def title_screen():
-    print("THE LINK OF LEGEND")
-    input("\n\n(press enter to continue)")
+    system('clear')
+    print("\n\n\n\n\n\t\t\t\v\vTHE LINK OF LEGEND")
+    input("\n\n\n\n\n\n\n\n\t\t     (press enter to continue)")
     system('clear')
 
 def main_menu():
+
     print("""
             THE LINK OF LEGEND
 
@@ -23,9 +25,6 @@ def main_menu():
         }
 
     menu[choice]() if choice in menu else fail()
-
-    load = Failed()
-    settings = Failed()
 
 def fail():
     system('clear')
@@ -45,8 +44,15 @@ class Failed(object):
 
 def quit():
     system('clear')
-    print('\t\t\t Thanks for playing!!!\vBye<3')
+    print('\t\t\t Thanks for playing!!!\n\t\t\t\tBye<3')
     exit(0)
 
 def start():
-    
+    print('\t\t\t\v\vAnd so your journey begins\n\n')
+
+def startup():
+    title_screen()
+    main_menu()
+
+load = Failed()
+settings = Failed()
