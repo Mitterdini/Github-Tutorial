@@ -37,6 +37,88 @@ Notes
     *When you read Python code, watch out for variables that are set new values
         later in a script
     *Use flow charts to help map out "blueprints" for a script
+    *When creating a file that you would like to import later, remember that
+        it executes the file when importing to the desired file. (I think)
+        for example, if there is a print() function in the imported file, it
+        will print the line. same for input() etc.
+        That being said, **ALWAYS REMEMBER** to try and keep the importing files
+        to functions, classes, etc.
+    *Object type comparisons should always use isinstance() instead of comparing
+        types directly
+    *Use ''.startswith() and ''.endswith() instead of string slicing to check
+        for prefixes or suffixes
+
+--------------------------------------------------------------------------------
+________________________________
+    Code lay-out: Yes's and No's|
+________________________________|_______________________________________________
+__YES__:
+
+# Aligned with opening delimiter.
+foo = long_function_name(var_one, var_two,
+                         var_three, var_four)
+
+# More indentation included to distinguish this from the rest.
+def long_function_name(
+        var_one, var_two, var_three,
+        var_four):
+    print(var_one)
+
+# Hanging indents should add a level.
+foo = long_function_name(
+    var_one, var_two,
+    var_three, var_four)
+
+__NO__:
+
+# Arguments on first line forbidden when not using vertical alignment.
+foo = long_function_name(var_one, var_two,
+    var_three, var_four)
+
+# Further indentation required as indentation is not distinguishable.
+def long_function_name(
+    var_one, var_two, var_three,
+    var_four):
+    print(var_one)
+
+The 4-space rule is optional for continuation lines.
+
+Optional:
+
+# Hanging indents *may* be indented to other than 4 spaces.
+foo = long_function_name(
+  var_one, var_two,
+  var_three, var_four)
+
+__Yes__: import os
+     import sys
+
+__No__:  import sys, os
+
+__Yes__:
+
+FILES = [
+    'setup.cfg',
+    'tox.ini',
+    ]
+initialize(FILES,
+           error=True,
+           )
+
+__No__:
+
+FILES = ['setup.cfg', 'tox.ini',]
+initialize(FILES, error=True,)
+
+__Yes__:
+
+def f(x): return 2*x
+
+__No__:
+
+f = lambda x: 2*x
+
+________________________________________________________________________________
 
 --------------------------------------------------------------------------------
 Pages

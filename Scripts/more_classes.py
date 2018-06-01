@@ -2,12 +2,12 @@ from pprint import pprint                                                       
                                                                                 #an instance
 def os_picker(os, name):
     operating_systems = {
-    "apple":Apple(name),
-    "microsoft":Microsoft(name),
-    "linux":Linux(name)
-    }
+        "apple":Apple(name),
+        "microsoft":Microsoft(name),
+        "linux":Linux(name)
+        }
 
-    return operating_systems.get( os , Computer(name))
+    return operating_systems.get(os, Computer(name))
 
 class Computer(object):
 
