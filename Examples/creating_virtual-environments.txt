@@ -1,0 +1,13 @@
+Script started on Sun 03 Jun 2018 07:21:53 PM EDT
+
+mitterdiggity> virtualenv --system-site-packages ~/.venvs/VirtEnvName           #VirtEnvName is the name of the virtual environment
+
+Using base prefix '/usr'
+New python executable in /home/mitterdiggity/.venvs/VirtEnvName/bin/python3.6
+Also creating executable in /home/mitterdiggity/.venvs/VirtEnvName/bin/python
+Installing setuptools, pip, wheel...done.
+
+mitterdiggity> . ~/.venvs/VirtEnvName/bin/activate                              #Source and activate the virtual environment
+(VirtEnvName) mitterdiggity>                                                    #Now it shows that you're in the virtualenv
+
+Script done on Sun 03 Jun 2018 07:22:57 PM EDT
