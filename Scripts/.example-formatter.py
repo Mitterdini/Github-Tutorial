@@ -5,15 +5,16 @@ from pprint import pprint
 
 script, filename = argv
 
-path.extend(('/home/mitterdiggity/Coding/Python/Github/Learning-The-Hard-Way/',          # path[6]
- '/home/mitterdiggity/Coding/Python/Github/Learning-The-Hard-Way/Examples'))             # path[7]
+path.extend(('/root/Coding/Python/Github/Learning-The-Hard-Way/',          # path[6]
+ '/root/Coding/Python/Github/Learning-The-Hard-Way/Examples'))             # path[7]
 
 def editor(file, output):
     checking = file.read()
 
     if checking:
-        checking = checking.replace("[1;33mmitterdiggity[0;36m> exit", "")
-        checking = checking.replace("[1;33mmitterdiggity[0;36m", "mitterdiggity")
+        checking = checking.replace("[1;33mroot[0;36m> exit", "")
+        checking = checking.replace("", "")
+        checking = checking.replace("[1;33mroot[0;36m", "root")
         checking = checking.replace("exit", "")
         output.write(checking)
         return editor(file, output)
