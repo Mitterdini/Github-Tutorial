@@ -1,0 +1,37 @@
+from sys import argv
+from os import system
+
+script, project_name = argv
+print("I'm on it, Mr. B0ssman!!\n")
+
+pwd = "/root/Coding/Python/Github/Learning-The-Hard-Way/Projects/"
+system(f"cp -r {pwd}.skeleton/ {pwd}{project_name}/")
+system(f"mv {pwd}{project_name}/NAME {pwd}{project_name}/{project_name}")
+system(f"mv {pwd}{project_name}/tests/NAME_tests.py {pwd}{project_name}/tests/{project_name}_tests.py")
+
+edit_setup = open(f'{pwd}{project_name}/setup.py')
+new_edit_setup = open(f'{pwd}{project_name}/new_setup.py', 'w')
+edit_name_tests = open(f'{pwd}{project_name}/tests/{project_name}_tests.py')
+new_edit_name_tests = open(f'{pwd}{project_name}/tests/new_{project_name}_tests.py', 'w')
+
+def edit_name_in_file(file, output):
+    checking = file.read()
+
+    if checking:
+        checking = checking.replace("NAME", f"{project_name}")
+        output.write(checking)
+        return edit_name_in_file(file, output)
+
+edit_name_in_file(edit_setup, new_edit_setup)
+edit_name_in_file(edit_name_tests, new_edit_name_tests)
+
+edit_setup.close()
+new_edit_setup.close()
+edit_name_tests.close()
+new_edit_name_tests.close()
+
+system(f"mv {pwd}{project_name}/new_setup.py {pwd}{project_name}/setup.py ")
+system(f"mv {pwd}{project_name}/tests/new_{project_name}_tests.py {pwd}{project_name}/tests/{project_name}_tests.py")
+
+print(f"All finished.\n\nProject >{project_name}< has been created.")
+print(f"It can be found: {pwd}{project_name}")

@@ -1,4 +1,11 @@
 #THIS ONLY WORKS IF YOU ARE IN THE DIRECTORY OF THE DESIRED FILE
+#use the following set a system output as a vaiable in a script:
+#{      from os import popen
+#       pwd = popen('pwd').read()       }
+#    The above code stores the current position, however, keep in mind, this
+#    adds >\n< to the end of the string set to >pwd<
+#    counter act it by using >pwd.rstrip('\n')<
+
 from sys import argv, path
 from os import system
 from pprint import pprint

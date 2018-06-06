@@ -47,7 +47,9 @@ Notes
         types directly
     *Use ''.startswith() and ''.endswith() instead of string slicing to check
         for prefixes or suffixes
-
+    *Use https://docs.python.org/3/distutils/setupscript.html to learn more
+        about creating my own modules
+    
 --------------------------------------------------------------------------------
 ________________________________
     Code lay-out: Yes's and No's|
