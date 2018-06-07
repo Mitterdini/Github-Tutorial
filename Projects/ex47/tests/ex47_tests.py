@@ -22,7 +22,7 @@ def test_map():
     west = Room("Trees", "There are trees here, you can go east.")
     down = Room("Dungeon", "It's dark down here, you can go up.")
 
-    start.add_paths({'west': west}, {'down': down})
+    start.add_paths({'west': west, 'down': down})
     west.add_paths({'east': start})
     down.add_paths({'up': start})
 

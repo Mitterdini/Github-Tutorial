@@ -10,13 +10,15 @@ all.remove('')
 
 if len(listdir('/root/Coding/Python/Github/Learning-The-Hard-Way/Projects/.NewProject/logs/')) == 0:
     pass
+elif(all[0] == log_name):
+    log_num = 0
 else:
     log_num = all[0]
     log_num = log_num.lstrip('/root/Coding/Python/Github/Learning-The-Hard-Way/Projects/.NewProject/logs/log_entry-')
     log_num = log_num.rstrip('.txt')
 
 if (path.isfile(log_name) == True):
-    log_num += 1
+    log_num = int(log_num) + 1
     log_name = log_name.rstrip('.tx')
     log_name = log_name + '-' + str(log_num) + '.txt'
 else:

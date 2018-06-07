@@ -49,7 +49,10 @@ Notes
         for prefixes or suffixes
     *Use https://docs.python.org/3/distutils/setupscript.html to learn more
         about creating my own modules
-
+    *Test files must be in the >tests/< directory and must have have an
+        extension >_tests.py< for it to be picked up by the >nosetests< command
+    *Make a test file for each module you make
+    
 --------------------------------------------------------------------------------
 ________________________________
     Code lay-out: Yes's and No's|
