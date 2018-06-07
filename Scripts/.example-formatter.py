@@ -6,14 +6,13 @@
 #    adds >\n< to the end of the string set to >pwd<
 #    counter act it by using >pwd.rstrip('\n')<
 
-from sys import argv, path
+from sys import argv
 from os import system
 from pprint import pprint
 
 script, filename = argv
 
-path.extend(('/root/Coding/Python/Github/Learning-The-Hard-Way/',          # path[6]
- '/root/Coding/Python/Github/Learning-The-Hard-Way/Examples'))             # path[7]
+pwd = '/root/Coding/Python/Github/Learning-The-Hard-Way/'
 
 def editor(file, output):
     checking = file.read()
@@ -26,12 +25,12 @@ def editor(file, output):
         output.write(checking)
         return editor(file, output)
 
-filename = path[6]+filename
+filename = pwd+filename
 x = filename.split('/')
 name = x[-1]
 
 target = open(filename)
-new = path[6]+"new_"+name; new_target = open(new, 'w')
+new = pwd+"new_"+name; new_target = open(new, 'w')
 
 print("Replacing...\n")
 
