@@ -1,0 +1,47 @@
+Script started on 2018-06-06 21:52:55-0400
+root> new_project Project_example
+I'm on it, Mr. B0ssman!!
+
+All finished.
+
+Project >Project_example< has been created.
+It can be found: /root/Coding/Python/Github/Learning-The-Hard-Way/Projects/Project_example
+root> la
+[0m[1;32m.NewProject[0m  [1;32mProject_example[0m  [1;37mREADME.txt[0m  [1;32m.skeleton[0m  [1;32mTheTest[0m
+root> cd Project_example/
+root> cd[Kat b[KProject_example/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktests/Project_example_tests.py 
+from nose.tools import *
+import Project_example
+
+def setup():
+    print("SETUP!")
+
+def teardown():
+    print("TEAR DOWN!")
+
+def test_basic():
+    print("I RAN!", end='')
+root> cat setup.py 
+try:
+    from setuptools import setup
+except ImportError:
+    from distutils.core import setup
+
+config = {
+    'description': 'My Project',
+    'author': 'My Name',
+    'url': 'URL to get it at.',
+    'download_url': 'Where to download it.',
+    'author_email': 'My email.',
+    'version': '0.1',
+    'install_requires': ['nose'],
+    'packages': ['Project_example'],
+    'scripts': [],
+    'name': 'projectname'
+}
+
+setup(**config)
+
+
+
+Script done on 2018-06-06 21:56:09-0400
