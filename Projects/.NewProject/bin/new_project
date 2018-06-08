@@ -7,12 +7,16 @@ print("I'm on it, Mr. B0ssman!!\n")
 pwd = "/root/Coding/Python/Github/Learning-The-Hard-Way/Projects/"
 system(f"cp -r {pwd}.skeleton/ {pwd}{project_name}/")
 system(f"mv {pwd}{project_name}/NAME {pwd}{project_name}/{project_name}")
-system(f"mv {pwd}{project_name}/tests/NAME_tests.py {pwd}{project_name}/tests/{project_name}_tests.py")
+system(f"mv {pwd}{project_name}/tests/NAME_test.py {pwd}{project_name}/tests/{project_name}_test.py")
 
 edit_setup = open(f'{pwd}{project_name}/setup.py')
 new_edit_setup = open(f'{pwd}{project_name}/new_setup.py', 'w')
-edit_name_tests = open(f'{pwd}{project_name}/tests/{project_name}_tests.py')
-new_edit_name_tests = open(f'{pwd}{project_name}/tests/new_{project_name}_tests.py', 'w')
+edit_name_tests = open(f'{pwd}{project_name}/tests/{project_name}_test.py')
+new_edit_name_tests = open(f'{pwd}{project_name}/tests/new_{project_name}_test.py', 'w')
+edit_uninstaller = open(f'{pwd}{project_name}/uninstaller.py')
+new_edit_uninstaller = open(f'{pwd}{project_name}/new_uninstaller.py', 'w')
+edit_updater = open(f'{pwd}{project_name}/update.py')
+new_edit_updater = open(f'{pwd}{project_name}/new_update.py', 'w')
 
 def edit_name_in_file(file, output):
     checking = file.read()
@@ -24,14 +28,22 @@ def edit_name_in_file(file, output):
 
 edit_name_in_file(edit_setup, new_edit_setup)
 edit_name_in_file(edit_name_tests, new_edit_name_tests)
+edit_name_in_file(edit_uninstaller, new_edit_uninstaller)
+edit_name_in_file(edit_updater, new_edit_updater)
 
 edit_setup.close()
 new_edit_setup.close()
 edit_name_tests.close()
 new_edit_name_tests.close()
+edit_uninstaller.close()
+new_edit_uninstaller.close()
+edit_updater.close()
+new_edit_updater.close()
 
 system(f"mv {pwd}{project_name}/new_setup.py {pwd}{project_name}/setup.py ")
-system(f"mv {pwd}{project_name}/tests/new_{project_name}_tests.py {pwd}{project_name}/tests/{project_name}_tests.py")
+system(f"mv {pwd}{project_name}/tests/new_{project_name}_test.py {pwd}{project_name}/tests/{project_name}_test.py")
+system(f"mv {pwd}{project_name}/new_uninstaller.py {pwd}{project_name}/uninstaller.py")
+system(f"mv {pwd}{project_name}/new_update.py {pwd}{project_name}/update.py ")
 
 print(f"All finished.\n\nProject >{project_name}< has been created.")
 print(f"It can be found: {pwd}{project_name}")

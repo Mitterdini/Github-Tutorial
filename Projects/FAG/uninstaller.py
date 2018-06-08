@@ -1,14 +1,14 @@
 from os import system, path, popen, listdir
 
-pwd = "/root/Coding/Python/Github/Learning-The-Hard-Way/Projects/.NewProject/"
+pwd = "/root/Coding/Python/Github/Learning-The-Hard-Way/Projects/FAG/"
 
 log_name = f"{pwd}logs/log_entry.txt"
 
-all = popen("ls -A /root/Coding/Python/Github/Learning-The-Hard-Way/Projects/.NewProject/logs/*").read()
+all = popen("ls -A /root/Coding/Python/Github/Learning-The-Hard-Way/Projects/FAG/logs/*").read()
 all = all.split('\n')
 all.remove('')
 
-if len(listdir('/root/Coding/Python/Github/Learning-The-Hard-Way/Projects/.NewProject/logs/')) == 0:
+if len(listdir('/root/Coding/Python/Github/Learning-The-Hard-Way/Projects/FAG/logs/')) == 0:
     pass
 elif(all[0] == log_name):
     log_num = 1
