@@ -1,1 +1,2 @@
-# Learning Python the hard way
+# Learning python 3 the Hard Way  =>  COMPLETE
+# Violent Python                  =>  Pending
