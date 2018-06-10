@@ -1,6 +1,3 @@
 [
-  "tests/ex47_test.py::test_room",
-  "tests/ex47_test.py::test_room_paths",
-  "tests/ex47_test.py::test_map",
-  "tests/lexicon_test.py::test_show"
+  "tests/lexicon_test.py::test_extractor"
 ]
