@@ -17,8 +17,7 @@ def dict_get(word):
             pass
     raise ValueError("Invalid Dictionary, word not in dictionaries")
 
-def extractor():
-    answer = input('> ')
+def extractor(answer):
     words = answer.split()
     return words
 
@@ -29,9 +28,9 @@ def tuple_creator(word_list):
         listed_tuples.append((dict_get(word_list[i]), word_list[i]))
     return listed_tuples
 
-def scan():
+def scan(sent):
     tuple_list = []
-    sentence_list = extractor()
+    sentence_list = extractor(sent)
 
     tuple_list.extend(tuple_creator(sentence_list))
     return(tuple_list)

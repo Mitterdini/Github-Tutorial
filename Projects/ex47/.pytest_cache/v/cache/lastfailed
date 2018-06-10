@@ -1,3 +1,5 @@
 {
+  "tests/lexicon_test.py::test_errors": true,
+  "tests/lexicon_test.py::test_numbers": true,
   "tests/test_lexicon.py::test_lexicon": true
 }
