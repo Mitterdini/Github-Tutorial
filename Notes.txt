@@ -7,7 +7,7 @@ This file is to keep track of important pages and useful notes.
 Bookmarks:                  page number given by PDF not Book.
     LP3THW (COMPLETE)
     KLR    (P.55)
-    VP     (P.)
+    VP     (P.14)
 ================================================================================
 
 Python
@@ -152,8 +152,7 @@ Pages
 Violent Python
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Notes
-    peep pages 9-Networking, 10-selection/error handeling, 
-    16-file I/O, 17-sys module, 18-os module
+    peep pages  17-sys module, 18-os module
 ________________________________________________________________________________
 --------------------------------------------------------------------------------
 
