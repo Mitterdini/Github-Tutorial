@@ -6,8 +6,8 @@ This file is to keep track of important pages and useful notes.
 ================================================================================
 Bookmarks:                  page number given by PDF not Book.
     LP3THW (COMPLETE)
-    KLR    (P.55)
-    VP     (P.14)
+    KLR    (P.75)
+    Viopy  (P.47)
 ================================================================================
 
 Python
@@ -54,7 +54,10 @@ Notes
         extension >_tests.py< for it to be picked up by the >nosetests< command
     *Make a test file for each module you make. Each module must have >test_<
         in leading the function name. for example =>  >def test_example():<
-
+    *To create a virtual environment move to the virtual environment folder:
+        >~/.virtual_envs<
+        >virtualenv --system-site-packages ~/.virtual_envs/VIRTUAL_ENV_NAME<
+        >. ~/.virtual_envs/VIRTUAL_ENV_NAME/bin/activate<
 --------------------------------------------------------------------------------
 ________________________________
     Code lay-out: Yes's and No's|
@@ -142,10 +145,12 @@ Kali Linux
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Notes
 
+
 ________________________________________________________________________________
 --------------------------------------------------------------------------------
 
 Pages
+
 
 ================================================================================
 
