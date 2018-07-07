@@ -9,6 +9,7 @@ Bookmarks:                  page number given by PDF not Book.
     LP3THW (COMPLETE)
     KLR    (P.84)
     Viopy  (P.47)
+    TT     (P.7)
 ================================================================================
 
 ~Learn Python3 The Hard Way~
@@ -170,12 +171,27 @@ Pages
 ~OWASP Top Ten~
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Notes
+    *OWASP Application Security Verification Standard (ASVS) {Check when done}
+    *https://www.owasp.org/index.php/OWASP_Guide_Project
+        and https://www.owasp.org/index.php/OWASP_Cheat_Sheet_Series to find
+        more security issues
+    *For how to find vulnerabilities check:
+        https://www.owasp.org/index.php/OWASP_Testing_Project
+    *To stop vulnerabilities check:
+        https://www.owasp.org/index.php/OWASP_Proactive_Controls
+        and https://www.owasp.org/index.php/ASVS
+    *Cross Site Request Forgery:
+        https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)
+    *OWASP Risk Rating Methodology:
+        https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology
+    *Common Weakness Enumeration:
+        https://cwe.mitre.org/data/definitions/22.html
 
 ________________________________________________________________________________
 --------------------------------------------------------------------------------
 
 Pages
-
+    *Refer to P.5 for a visual of differences between 2013 and 2017
 
 ================================================================================
 
