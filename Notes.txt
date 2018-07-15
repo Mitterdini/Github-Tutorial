@@ -186,12 +186,43 @@ Notes
         https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology
     *Common Weakness Enumeration:
         https://cwe.mitre.org/data/definitions/22.html
+    *LDAP = Lightweight Directory Access Protocol
+    *Command Injection:
+        https://www.owasp.org/index.php/Command_Injection
+    *Injection Flaws:
+        https://www.owasp.org/index.php/Injection_Flaws
+
+
+    **Application is Vulerable when**
+        -User-supplied data is not validated, filtered, or sanitized by the
+            application.
+        -Dynamic queries or non-parameterized calls without context-
+            aware escaping are used directly in the interpreter.
+        -Hostile data is used within object-relational mapping (ORM)
+            search parameters to extract additional, sensitive records.
+        -Hostile data is directly used or concatenated, such that the
+            SQL or command contains both structure and hostile data in
+            dynamic queries, commands, or stored procedures.
+    **To Prevent**
+        -Preventing injection requires keeping data separate from
+            commands and queries.
+        -The preferred option is to use a safe API, which avoids the use
+            of the interpreter entirely or provides a parameterized interface,
+            or migrate to use Object Relational Mapping Tools (ORMs).
+        -Use positive or "whitelist" server-side input validation. This is
+            not a complete defense as many applications require special
+            characters, such as text areas or APIs for mobile applications.
+        -For any residual dynamic queries, escape special characters
+            using the specific escape syntax for that interpreter.
+        -Use LIMIT and other SQL controls within queries to prevent
+            mass disclosure of records in case of SQL injection.
 
 ________________________________________________________________________________
 --------------------------------------------------------------------------------
 
 Pages
     *Refer to P.5 for a visual of differences between 2013 and 2017
+    *Refer to P.7 for a summary of the top 10
 
 ================================================================================
 
