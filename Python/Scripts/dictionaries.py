@@ -1,5 +1,5 @@
 clap = 5
-dat = "Ass"
+dat = "pass"
 
 dict = {"succ":"is short for succle", clap:dat, 7: 45}                          #You ca set variables, strings, or numbers
 x = input("pick something: ")
